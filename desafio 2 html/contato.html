@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        footer ul{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            
+        }
+        .menu a{
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            font-family: serif;
+            margin: 10px;
+        }
+        .menu a:hover{
+            background-color: green;
+        }
+        .q{
+            color: white;
+            margin-left: 10px;
+            font-family: serif;
+            font-size: 18px;
+            text-decoration: none;
+
+        }
+        input{
+            width: 300px;
+            height: 50px
+            ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="menu" style="background-color: brown; float: left; width: 300px; height: 1445px;" >
+        <a href="index.html" >Início</a> <br>
+        <a href="sobreNós.html" > Sobre Nós</a><br>
+        <a href="HorarioAtendimento.html" >Agenda de Horários</a><br>
+        <a href="contato.html" >Entre em Contato</a><br>
+    </div>
+    <div style="background-color: blue;">
+
+        <header style="background-color: aqua; text-align: center;">
+            <img  height="100px" width="1000px" src="../desafio 2 html/assents/download.jpg">
+        </header>
+    </div>
+    <h2>Contato</h2>
+    <p>Telefone: 65 99999-9999</p>
+    <h2>Endereço</h2>
+    <p>123 Avenida das Flores<br>
+        Bairro Primavera<br>
+        Cidade Felicidade<br>
+        Estado da Harmonia<br>
+        CEP: 12345-678<br>
+        País da Alegria.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7690.530199919044!2d-58.34913882758387!3d-15.470166214720162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9399ffb3f4e6b4e3%3A0xa773438d7e4c2a59!2sAraputanga%2C%20MT%2C%2078260-000!5e0!3m2!1spt-BR!2sbr!4v1711921705651!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </iframe>
+    <form onsubmit="alert('Formulário enviado')" method="post" action="#">
+        <fieldset>
+            <legend>Formulário de contato</legend>
+            <label>Nome Completo</label><br>
+        <input type="text" required placeholder="Digite seu nome completo" autofocus/><br>
+        <label>E-mail</label><br>
+        <input type="email" required placeholder="Digite seu E-mail"/><br>
+        <label>Telefone</label><br>
+        <input type="tel" required placeholder="Digite seu telefone"/><br>
+        <label>Assunto</label><br>
+        <input type="text" required placeholder="Sobre o que gostaria de falar?"/><br>
+        <label>Descrição</label><br>
+        <textarea style="width: 300px; height: 150px;" required maxlength="500" minlength="20"></textarea> <br>
+        <input type="reset"/><br>
+        <input type="submit"/>
+    </fieldset>
+    </form>
+
+</div>
+<footer style="background-color: gray; height: 180px;">
+    <ul style="list-style-type: none; padding: 10px;">
+        <li> <a class="q" href="index.html">Início</a></li>
+        <li > <a class="q" href="sobreNós.html">Sobre Nós</a></li>
+        <li> <a class="q" href="HorarioAtendimento.html">Agendar Horários</a></li>
+        <li> <a class="q" href="contato.html">Entre em Contato</a></li>
+    </ul>
+   
+</footer>
+</body>
+
+    
+</html>
